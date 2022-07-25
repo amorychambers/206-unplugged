@@ -212,6 +212,13 @@ textarea {
     
    }
 
+   .form {
+
+    display: flex;
+    flex-flow: column nowrap;
+
+   }
+
    .form-description h3 {
 
     margin: 27px 0 0 0;
@@ -598,9 +605,47 @@ textarea {
 
 }
 
+/* ---------------------------------------- DESKTOP STYLES ---------------------------------------- */
+
 @media only screen and (min-width: 1200px) {
 
-  /* ---------------------------------------- DESKTOP STYLES ---------------------------------------- */
+  /* -------------------- Desktop Styles - Homepage -------------------- */
+
+  .content-wrapper {
+
+    width: 90%;
+    max-width: 1200px;
+
+  }
+
+  header nav ul {
+
+    width: 30%;
+
+  }
+
+  aside .content-wrapper {
+
+    justify-content: space-around;
+    width: 70%;
+
+  }
+
+  .features article {
+
+    flex-basis: 30%;
+
+  }
+
+  footer .content-wrapper {
+
+    width: 100%;
+
+  }
+
+  /* -------------------- Desktop Styles - About Page -------------------- */
+
+  
 
 }
 
