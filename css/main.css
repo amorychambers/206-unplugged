@@ -105,6 +105,7 @@ textarea {
     justify-content: center;
     align-items: center;
     flex-flow: column nowrap;
+    padding: 15px 0;
 
    }
 
@@ -114,6 +115,7 @@ textarea {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    width: 60%;
 
    }
 
@@ -122,6 +124,8 @@ textarea {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    width: 100%;
+    padding: 0;
 
    }
 
@@ -131,6 +135,8 @@ textarea {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 55%;
+    margin: 50px 0;
 
    }
 
@@ -142,7 +148,7 @@ textarea {
 
    }
 
-   footer .social-icons {
+   footer .social-icons p {
 
     display: flex;
     justify-content: center;
@@ -150,16 +156,30 @@ textarea {
 
    }
 
+   footer p {
+
+    margin: 0;
+
+   }
+
    /* -------------------- Mobile Styles - Homepage -------------------- */
 
-   /* main {
+   .content-wrapper {
+
+    width: 90%;
+
+   }
+
+
+   .hero-area {
 
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 30px 0;
 
-   }   
-   */
+   }
+
    aside {
 
     display: flex;
@@ -169,12 +189,24 @@ textarea {
     
    }
 
+   .form-description h3 {
+
+    margin: 27px 0 0 0;
+
+   }
+
+   .form-description p {
+
+    margin: 10px 0 30px 0;
+
+   }
+
 
    .features {
 
     display: flex;
     justify-content: center;
-    align-items: space-around;
+    align-items: center;
 
    }
 
@@ -187,6 +219,25 @@ textarea {
 
    }
 
+   .features h2 {
+
+    margin: 50px 0;
+
+   }
+
+   .features p {
+
+    margin: 0;
+
+   }
+
+   .features article {
+
+    margin: 20px 0;
+    width: 55%;
+
+   }
+
    .reviews {
 
     display: flex;
@@ -196,6 +247,25 @@ textarea {
 
    }
 
+
+   .reviews h2 {
+
+    margin: 50px 0;
+
+   }
+
+   .reviews h3 {
+
+    margin: 20px 0;
+    width: 80%;
+
+   }
+
+   .reviews p {
+
+    margin-bottom: 45px;
+
+   }
    /* -------------------- Mobile Styles - About Page -------------------- */
 
 
@@ -205,6 +275,7 @@ textarea {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    padding: 50px 0;
 
    }
 
@@ -214,6 +285,7 @@ textarea {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    padding: 50px 0;
 
    }
 
@@ -234,6 +306,7 @@ textarea {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    padding: 50px 0;
 
 
    }
