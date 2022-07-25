@@ -140,6 +140,11 @@ textarea {
 
    }
 
+   footer {
+
+    flex-direction: column;
+
+   }
 
    footer .content-wrapper {
 
@@ -170,6 +175,7 @@ textarea {
    footer .copyright {
 
     margin: 20px 0;
+    text-align: center;
 
    }
 
@@ -421,6 +427,8 @@ textarea {
 
 @media only screen and (min-width: 768px) {
 
+  /* -------------------- Tablet Styles - Homepage -------------------- */
+
   .content-wrapper {
 
     max-width: 640px;
@@ -511,6 +519,7 @@ textarea {
    footer .content-wrapper {
 
     margin: 100px 0;
+  
 
    }
 
@@ -519,11 +528,70 @@ textarea {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    width: 100%;
+  
   }
 
   footer .copyright {
 
-    width: 30%;
+    width: 100%;
+
+  }
+
+  /* -------------------- Tablet Styles - About Page -------------------- */
+
+  .mission-content {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+
+  .mission-content p {
+
+    width: 45%;
+
+  }
+
+  .contact-section .content-wrapper h2 {
+
+    width: 70%;
+    margin-bottom: 35px;
+
+  }
+
+  .contact-content {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+
+  /* -------------------- Tablet Styles - FAQ Page -------------------- */
+
+  .faq .content-wrapper {
+
+    justify-content: space-between;
+
+  }
+
+  .faq .contact-wrapper article {
+
+    display: flex;
+
+  }
+
+  .faq-content {
+
+    flex-basis: 45%;
+
+  }
+
+  .faq h2 {
+
+    width: 100%;
 
   }
 
