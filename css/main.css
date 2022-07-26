@@ -614,15 +614,35 @@ textarea {
   .content-wrapper {
 
     width: 90%;
-    max-width: 1200px;
+    max-width: 1000px;
 
   }
 
-  header nav ul {
+  header nav {
 
-    width: 30%;
+    width: 10%;
 
-  }
+   }
+
+   header nav ul {
+
+    display: flex;
+    justify-content: space-between;
+
+   }
+
+   .hero-area {
+
+    justify-content: flex-start;
+
+   }
+
+
+   .hero-area h1 {
+
+    width: 70%;
+
+   }
 
   aside .content-wrapper {
 
@@ -631,9 +651,21 @@ textarea {
 
   }
 
+  .features h2 {
+
+    width: 90%;
+
+  }
+
   .features article {
 
     flex-basis: 30%;
+
+  }
+
+  .reviews article div {
+
+    width: 70%;
 
   }
 
@@ -644,6 +676,13 @@ textarea {
   }
 
   /* -------------------- Desktop Styles - About Page -------------------- */
+
+  .mission h2,
+  .contact-section .content-wrapper h2 {
+
+    width: 90%;
+
+  }
 
   
 
