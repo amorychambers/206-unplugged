@@ -97,6 +97,7 @@ textarea {
 
    body {
 
+    background-color: #202322;
     color: #e2e3ed;
     font-family: "Open Sans", sans-serif;
     font-size: 1em;
@@ -163,7 +164,7 @@ textarea {
 
    }
 
-   address {
+   address p {
 
     color: #e2e3ed;
     font-family: "Open Sans", sans-serif;
@@ -176,6 +177,31 @@ textarea {
 
    }
 
+   aside .form {
+    margin-top: 30px;
+   }
+  
+   input[type=text] {
+    box-sizing: border-box;
+    width: 100%;
+    color: #2a423a;
+    font-style: italic;
+    padding: 1em;
+   }
+  
+   input[type=button] {
+    width: 100%;
+    padding: 20px 0;
+    margin-top: 20px;
+    background-color: #2a423a;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 1.125em;
+    color: #e2e3ed;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
+   }
 
 
 
@@ -209,6 +235,7 @@ textarea {
 
    .header-divider {
 
+    background: #3a3a3a;
     width: 100%;
     height: 1px;
     margin: 10px 0 20px 0;
@@ -248,6 +275,7 @@ textarea {
     align-items: center;
     width: 55%;
     margin: 50px 0;
+    text-align: center;
 
    }
 
@@ -256,6 +284,7 @@ textarea {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
 
    }
 
@@ -300,10 +329,12 @@ textarea {
 
    aside {
 
+    background: #527158;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    padding: 30px 0 50px 0;
     
    }
 
@@ -316,13 +347,13 @@ textarea {
 
    .form-description h3 {
 
-    margin: 27px 0 0 0;
+    margin: 0;
 
    }
 
    .form-description p {
 
-    margin: 10px 0 30px 0;
+    margin: 10px 0;
 
    }
 
@@ -353,6 +384,7 @@ textarea {
    .features p {
 
     margin: 0;
+    text-align: center;
 
    }
 
@@ -365,6 +397,7 @@ textarea {
 
    .reviews {
 
+    background: #2a423a;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -396,21 +429,29 @@ textarea {
 
    .mission {
 
+    background: #527158;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
-    padding: 50px 0;
+    padding: 20px 0;
 
    }
 
    .contact-section {
 
+    background: #2a423a;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
-    padding: 50px 0;
+    padding: 40px 0;
+
+   }
+
+   .contact-section h2, h3 {
+
+    margin: 10px 0;
 
    }
 
@@ -418,10 +459,17 @@ textarea {
 
    .faq {
 
+    background: #527158;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+
+   }
+
+   .faq h2 {
+
+    margin: 0;
 
    }
 
@@ -436,6 +484,11 @@ textarea {
 
    }
 
+   .faq .content-wrapper .faq-content {
+
+    width: 100%;
+
+   }
 
 /* ==========================================================================
    Helper classes
@@ -529,6 +582,39 @@ textarea {
 
 @media only screen and (min-width: 768px) {
 
+  /* -------------------- Tablet Base Styles -------------------- */
+
+  
+   h1 {
+    
+    font-size: 3em;
+
+   }
+
+   h2 {
+
+    color: #e2e3ed;
+    font-family: "Poppins", sans-serif;
+    font-size: 2.25em;
+    font-weight: normal;
+
+   }
+
+   h3,
+   h4 {
+
+    font-size: 1.5em;
+
+   }
+
+   input[type=button] {
+    
+    padding: 10px 0;
+
+   }
+  
+
+
   /* -------------------- Tablet Styles - Homepage -------------------- */
 
   .content-wrapper {
@@ -575,21 +661,39 @@ textarea {
    }
 
 
+   aside {
+
+    padding: 0;
+
+   }
 
    aside .content-wrapper {
 
     display: flex;
     justify-content: space-between;
+    align-items: center;
     flex-flow: row nowrap;
-    margin: 50px;
+    margin: 40px 0;
 
    }
 
-   .form-description,
-   .form {
+   aside .form-description,
+   aside .form {
 
     width: 40%;
     margin: 0;
+
+   }
+
+   .features h2 {
+
+    margin: 0;
+
+   }
+
+   .features .content-wrapper {
+
+    padding: 90px 0;
 
    }
 
@@ -602,13 +706,19 @@ textarea {
     flex-flow: column wrap;
     flex-basis: 50%;
 
-  }
+   }
 
-  .features-item-description {
+   .features-item-description {
 
     width: 50%;
 
-  }
+   }
+
+   .reviews .content-wrapper {
+
+    padding: 100px 0;
+
+   }
 
    .reviews article {
 
@@ -618,9 +728,23 @@ textarea {
 
    }
 
+   .reviews h2 {
+
+    margin: 0;
+    width: 80%;
+
+   }
+
+   .reviews p {
+
+    margin: 0;
+
+   }
+
    footer .content-wrapper {
 
     margin: 100px 0;
+    width: 640px;
   
 
    }
@@ -658,7 +782,7 @@ textarea {
 
   .contact-section .content-wrapper h2 {
 
-    width: 70%;
+    width: 80%;
     margin-bottom: 35px;
 
   }
@@ -697,6 +821,11 @@ textarea {
 
   }
 
+  .faq h4 {
+
+    font-family: "Poppins", sans-serif;
+    font-size: 0.875em;
+
 
 }
 
@@ -704,11 +833,17 @@ textarea {
 
 @media only screen and (min-width: 1200px) {
 
+  p {
+
+    font-size: 1.125em;
+
+  }
+
   /* -------------------- Desktop Styles - Homepage -------------------- */
 
   .content-wrapper {
 
-    width: 90%;
+    width: 100%;
     max-width: 1000px;
 
   }
@@ -758,6 +893,12 @@ textarea {
 
   }
 
+  .reviews h2 {
+
+    margin-bottom: 70px;
+
+  }
+
   .reviews article div {
 
     width: 70%;
@@ -766,16 +907,59 @@ textarea {
 
   footer .content-wrapper {
 
-    width: 100%;
+    width: 70%;
+    justify-content: space-between;
+
+  }
+
+  .footer-content {
+
+    width: 90%;
+    justify-content: space-between;
 
   }
 
   /* -------------------- Desktop Styles - About Page -------------------- */
 
-  .mission h2,
+  .mission h2 {
+
+    font-size: 3em;
+    width: 90%;
+    margin: 0;
+
+  }
   .contact-section .content-wrapper h2 {
 
-    width: 90%;
+    font-size: 3em;
+    width: 100%;
+    margin: 0;
+
+  }
+
+  .mission,
+  .contact-section {
+
+    padding: 100px 0;
+
+  }
+
+  .contact-content {
+
+    width: 80%;
+
+  }
+
+  /* -------------------- Desktop Styles - FAQ Page -------------------- */
+
+  .faq h4 {
+
+    font-size: 1.125em;
+
+  }
+
+  .faq .content-wrapper {
+
+    padding: 100px 0;
 
   }
 
