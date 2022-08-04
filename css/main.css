@@ -156,11 +156,15 @@ textarea {
 
    }
 
-   img {
+   img { 
+
+    width: 100%;
 
    }
-
+    
    figure {
+
+    margin: 0;
 
    }
 
@@ -174,6 +178,8 @@ textarea {
    }
 
    .content-wrapper {
+
+    width: 100%
 
    }
 
@@ -233,6 +239,21 @@ textarea {
 
    }
 
+   header figure {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+   }
+
+   .hero-area {
+
+    background: url("../img/bridge.jpg") #527158 center no-repeat;
+    background-size: auto 700px;
+
+   }
+
    .header-divider {
 
     background: #3a3a3a;
@@ -259,6 +280,7 @@ textarea {
     align-items: center;
     width: 100%;
     padding: 0;
+    margin: 0;
 
    }
 
@@ -322,8 +344,10 @@ textarea {
 
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding: 10px 0;
+    align-items: flex-start;
+    padding: 0;
+    height: 500px;
+    width:100%;
 
    }
 
@@ -360,9 +384,12 @@ textarea {
 
    .features {
 
+    background: url("../img/camping.jpg") #202322 bottom no-repeat;
+    background-size: cover;
+    height: 1500px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 
    }
 
@@ -411,6 +438,7 @@ textarea {
     margin: 50px 0;
 
    }
+
 
    .reviews h3 {
 
@@ -588,6 +616,7 @@ textarea {
    h1 {
     
     font-size: 3em;
+    margin: 60px 0;
 
    }
 
@@ -604,6 +633,12 @@ textarea {
    h4 {
 
     font-size: 1.5em;
+
+   }
+
+   header figure {
+
+    width:  40%;
 
    }
 
@@ -627,7 +662,7 @@ textarea {
     
     display: flex;
     justify-content: center;
-    padding: 30px 0;
+    padding: 0;
     width: 100%;
 
   }
@@ -638,6 +673,7 @@ textarea {
     justify-content: space-between;
     align-items: center;
     flex-flow: row nowrap;
+    margin: 10px 0;
 
    }
 
@@ -657,6 +693,14 @@ textarea {
    .header-divider {
 
     display: none;
+
+   }
+
+   .hero-area {
+
+    background: url(../img/bridge.jpg) #527158 bottom no-repeat;
+    background-size: cover;
+    height: 600px;
 
    }
 
@@ -682,6 +726,15 @@ textarea {
 
     width: 40%;
     margin: 0;
+
+   }
+
+
+   .features {
+
+    background-position: center;
+    height: 850px;
+    
 
    }
 
@@ -720,11 +773,25 @@ textarea {
 
    }
 
+
    .reviews article {
 
     display: flex;
-    justify-content: center;
-    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+   }
+
+   .reviews article figure {
+
+    width: 49%;
+
+   }
+
+   .reviews article div {
+
+    width: 49%;
 
    }
 
@@ -848,9 +915,15 @@ textarea {
 
   }
 
+  header figure {
+
+    width: 25%;
+
+  }
+
   header nav {
 
-    width: 10%;
+    width: 15%;
 
    }
 
@@ -863,7 +936,7 @@ textarea {
 
    .hero-area {
 
-    justify-content: flex-start;
+    justify-content: center;
 
    }
 
@@ -871,13 +944,21 @@ textarea {
    .hero-area h1 {
 
     width: 70%;
+    margin: 20px 0;
 
    }
 
   aside .content-wrapper {
 
     justify-content: space-around;
-    width: 70%;
+    width: 80%;
+
+  }
+
+
+  .features {
+
+    height: 800px;
 
   }
 
@@ -896,12 +977,6 @@ textarea {
   .reviews h2 {
 
     margin-bottom: 70px;
-
-  }
-
-  .reviews article div {
-
-    width: 70%;
 
   }
 
