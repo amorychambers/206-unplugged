@@ -466,6 +466,26 @@ textarea {
 
    }
 
+   .map-container {
+
+    position: relative;
+    height: 0;
+    padding-bottom: 125%;
+    overflow: hidden;
+    width: 100%;
+
+   }
+
+   .map-container iframe {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+
+   }
+
    .contact-section {
 
     background: #2a423a;
@@ -847,6 +867,12 @@ textarea {
 
   }
 
+  .map-container {
+
+    padding-bottom: 45%;
+
+  }
+
   .contact-section .content-wrapper h2 {
 
     width: 80%;
@@ -1008,6 +1034,12 @@ textarea {
     font-size: 3em;
     width: 100%;
     margin: 0;
+
+  }
+
+  .map-container {
+
+    padding-bottom: 37.5%;
 
   }
 
