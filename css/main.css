@@ -197,7 +197,7 @@ textarea {
   
    input[type=button] {
     width: 100%;
-    padding: 20px 0;
+    padding: 10px 0;
     margin-top: 20px;
     background-color: #2a423a;
     font-family: 'Poppins', Helvetica, Arial, sans-serif;
@@ -257,7 +257,7 @@ textarea {
    .header-divider {
 
     background: #3a3a3a;
-    width: 100%;
+    width: 110%;
     height: 1px;
     margin: 10px 0 20px 0;
 
@@ -860,7 +860,7 @@ textarea {
 
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     width: 100%;
 
    }
@@ -915,6 +915,12 @@ textarea {
 
   /* -------------------- Tablet Styles - About Page -------------------- */
 
+  .mission {
+
+    padding: 50px 0 70px 0;
+
+  }
+ 
   .mission-content {
 
     display: flex;
@@ -935,6 +941,12 @@ textarea {
 
   }
 
+  .contact-section {
+
+    padding: 80px 0;
+
+  }
+
   .contact-section .content-wrapper h2 {
 
     width: 80%;
@@ -946,7 +958,7 @@ textarea {
 
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 
   }
 
@@ -987,6 +999,12 @@ textarea {
 /* ---------------------------------------- DESKTOP STYLES ---------------------------------------- */
 
 @media only screen and (min-width: 1200px) {
+
+  h3 {
+
+    font-size: 1.875em;
+
+  }
 
   p {
 
@@ -1039,7 +1057,20 @@ textarea {
   aside .content-wrapper {
 
     justify-content: space-around;
+    align-items: flex-start;
     width: 80%;
+
+  }
+
+  input[type=button] {
+
+    font-size: 1.5em;
+
+  }
+
+  .form-description h3 {
+
+    margin: 10px 0 0 0;
 
   }
 
@@ -1068,14 +1099,20 @@ textarea {
 
   }
 
-  footer .content-wrapper {
+  .reviews h3 {
 
-    width: 70%;
-    justify-content: space-between;
+    margin: 0;
 
   }
 
-  .footer-content {
+  footer .content-wrapper {
+
+    width: 70%;
+    justify-content: center;
+
+  }
+
+  footer .footer-content {
 
     width: 90%;
     justify-content: space-between;
@@ -1108,7 +1145,20 @@ textarea {
   .mission,
   .contact-section {
 
-    padding: 100px 0;
+    padding: 100px 0 90px 0;
+
+  }
+
+  .contact-section h3 {
+
+    font-size: 1.875em;
+    margin: 20px 0;
+
+  }
+
+  .contact-section p {
+
+    font-size: 1.125em;
 
   }
 
@@ -1120,6 +1170,13 @@ textarea {
 
   /* -------------------- Desktop Styles - FAQ Page -------------------- */
 
+  .faq h2 {
+
+    font-size: 3em;
+    margin: 10px 0;
+
+  }
+
   .faq h4 {
 
     font-size: 1.125em;
@@ -1128,7 +1185,7 @@ textarea {
 
   .faq .content-wrapper {
 
-    padding: 100px 0;
+    padding: 90px 0 100px 0;
 
   }
 
