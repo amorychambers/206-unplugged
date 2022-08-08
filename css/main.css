@@ -301,19 +301,33 @@ textarea {
 
    }
 
+   footer .footer-content {
+
+    width: 100%;
+
+   }
+
    footer .social {
 
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-flow: column wrap;
     margin-top: 20px;
 
    }
 
+   footer .social-icons {
+
+    width: 200px;
+
+   }
+
+
    footer .social-icons p {
 
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 
    }
@@ -324,6 +338,46 @@ textarea {
     text-align: center;
 
    }
+
+   footer p a {
+
+    background-color: #527158;
+    color: #e2e3ed;
+    border-radius: 100%;
+    font-size: 1.125em;
+    height: 40px;
+    width: 40px;
+    position: relative;
+
+   }
+
+   .fa-facebook-f {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+   }
+
+   .fa-twitter {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+   }
+
+   .fa-instagram {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+   }
+
 
    footer p {
 
