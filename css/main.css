@@ -386,7 +386,7 @@ textarea {
 
     background: url("../img/camping.jpg") #202322 bottom no-repeat;
     background-size: cover;
-    height: 1500px;
+    height: 1600px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -412,6 +412,14 @@ textarea {
 
     margin: 0;
     text-align: center;
+
+   }
+
+   .features i {
+
+    font-size: 3.75em;
+    margin-top: 10px;
+    margin-bottom: 40px;
 
    }
 
@@ -753,7 +761,7 @@ textarea {
    .features {
 
     background-position: center;
-    height: 850px;
+    height: 950px;
     
 
    }
@@ -984,7 +992,7 @@ textarea {
 
   .features {
 
-    height: 800px;
+    height: 900px;
 
   }
 
