@@ -295,7 +295,7 @@ textarea {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 55%;
+    width: 100%;
     margin: 50px 0;
     text-align: center;
 
@@ -339,7 +339,7 @@ textarea {
 
    }
 
-   footer p a {
+   footer a {
 
     background-color: #527158;
     color: #e2e3ed;
@@ -440,10 +440,10 @@ textarea {
 
     background: url("../img/camping.jpg") #202322 bottom no-repeat;
     background-size: cover;
-    height: 1600px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    flex: 1 0 1600px;
 
    }
 
@@ -1000,8 +1000,8 @@ textarea {
     font-size: 0.875em;
 
 
+  }
 }
-
 /* ---------------------------------------- DESKTOP STYLES ---------------------------------------- */
 
 @media only screen and (min-width: 1200px) {
@@ -1279,4 +1279,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
