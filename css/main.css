@@ -890,6 +890,12 @@ textarea {
 
    }
 
+   .reviews img {
+
+    margin: 20px 0;
+
+   }
+
    footer .content-wrapper {
 
     margin: 100px 0;
@@ -1100,6 +1106,12 @@ textarea {
   }
 
   .reviews h3 {
+
+    margin: 0;
+
+  }
+
+  .reviews img {
 
     margin: 0;
 
